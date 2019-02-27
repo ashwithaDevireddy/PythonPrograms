@@ -1,0 +1,30 @@
+>>> address=["flat floor street",18,'new york']
+>>> address[0]
+'flat floor street'
+>>> address[1]+2//adds the numbers with the address 
+20
+>>> address[1]+address[2]// doesnot accept adding different variable
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> address[0:2]
+['flat floor street', 18]
+>>> address[0:]
+['flat floor street', 18, 'new york']
+>>> address[:3]
+['flat floor street', 18, 'new york']
+>>> address[:]
+['flat floor street', 18, 'new york']
+>>> address[-2]
+18
+>>> address[-1]
+'new york'
+>>> address[-1:2]
+[]
+>>> address[-1:-2]
+[]
+>>> address[-2:-1]
+[18]
+>>> address[-2:]
+[18, 'new york']
+
