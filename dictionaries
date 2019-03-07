@@ -1,0 +1,13 @@
+pins={"mike":1,"joe":2,"jack":3}
+
+Dictionaries are key:value relations.
+
+>>> pins["mike"]
+1  // index values are not allowed to fetch the data from the dictionaries.
+
+>>> pins.keys()
+dict_keys(['mike', 'joe', 'jack']) // provides the keys that are included 
+
+>>> pins.values()
+dict_values([1, 2, 3])// provides the values of the keys.
+
