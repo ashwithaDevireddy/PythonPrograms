@@ -1,0 +1,12 @@
+inputs_var=int(input("enter the number :"))
+print(inputs_var ** 2)
+
+outputs:
+python3 inputs.py
+enter the number :2
+4
+
+python3 inputs.py
+enter the number :1
+1
+
