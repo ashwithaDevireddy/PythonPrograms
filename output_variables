@@ -1,0 +1,2 @@
+x=hi 
+	print("Greeting with  " + x) """to concatenate the variable x which is outside the print function """
